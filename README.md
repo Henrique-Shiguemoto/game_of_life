@@ -1,11 +1,13 @@
-## SDL2 Game Template - Windows only (for now)
+## Game of Life with SDL2
 
-This is a simple template for SDL2 projects, I got tired of always having to scaffold SDL2 directories and having to 
-write Makefiles all the time, so this is why this repo exists.
+This is a simulation of John Conway's Game of Life. Initially, you can set the initial state (each pixel is a cell) by clicking AND moving your mouse. Then at any point you can type the A key and the simulation will begin.
 
-## IMPORTANT
+## Screenshots
 
-After you clone this repo, delete the .git hidden file from the repo. Then open your terminal and type <code>git init</code> to start a new local repo.
+<p float="left">
+  <img src="readme_imgs/setup.png">
+  <img src="readme_imgs/game_playing_itself.png">
+</p>
 
 ## Technologies Used
 
@@ -17,7 +19,4 @@ After you clone this repo, delete the .git hidden file from the repo. Then open 
 
 - Clone this repo anywhere you want
 - Open the command prompt in that directory 
-- Type <code>make</code> and hit Enter
 - Then type <code>make run</code> and hit Enter, the project should be running.
-
-You can change the code in the <code>main.cpp</code> file in the <code>src</code> directory.

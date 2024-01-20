@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#define GAME_NAME 				"Game Name"
+#define GAME_NAME 				"Game of Life with SDL2"
 #define WINDOW_DEFAULT_WIDTH  	800
 #define WINDOW_DEFAULT_HEIGHT 	600
 
